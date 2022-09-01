@@ -29,6 +29,7 @@
 
 img {
     width: 25%;
+    display: inline-block;
 }
 
 header {
@@ -37,5 +38,6 @@ header {
 
 .col_3>p {
     color: white;
+    display: inline-block;
 }
             
