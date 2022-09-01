@@ -5,7 +5,7 @@
 }
 
 /* utility */
-.clear_fix::after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -17,27 +17,46 @@
 }
 
 .col_3 {
-    width: calc(90% / 3);
-    float: left;
-    padding: 10px;
-    margin: 15px 10px;
+    width: calc((100% / 3) - 20px);
     background-color: black;
     box-shadow: 0 0 10px rgb(34, 34, 34);
+    float: left;
+    margin: 10px;
 }
 
 /* //utility */
 
-img {
-    width: 25%;
-    display: inline-block;
+body{
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
+    width: 70%;
+    margin: auto;
     text-align: center;
 }
 
-.col_3>p {
-    color: white;
-    display: inline-block;
+#title {
+    margin: 1.5rem 0 2rem 0;
 }
-            
+
+.team_description{
+    margin-bottom: 1.5rem;
+}
+
+img {
+    width: 100px;
+    float: left;
+}
+
+.name , .role {
+    color: white;
+    font-size: 12px;
+    padding: 8px;
+}
+
+.mail{
+    color: #45a1df;
+    font-size: 12px;
+    padding: 8px;
+}
